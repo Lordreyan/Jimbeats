@@ -18,7 +18,7 @@ module.exports = {
 	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	autoLeave: false, //- When set to true, the bot will automatically leave when no one is in the voice channel (can be combined with 24/7 to always be in voice channel until everyone leaves; if 24/7 is on disconnectTime will add a disconnect delay after everyone leaves.)
-	debug: false, //- Debug mode
+	debug: true, //- Debug mode
 	cookieSecret: "Pixlbuilders is epic", //- Cookie Secret
 	website: "http://localhost:4200", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
@@ -41,7 +41,7 @@ module.exports = {
 		activities: [
 			{
 				name: "To Jimbo", //- Status Text
-				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
+				type: "STREAMING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
 	},
