@@ -15,16 +15,8 @@ const command = new SlashCommand()
         new MessageActionRow().addComponents(
           new MessageButton()
             .setLabel("Invite me")
-            .setStyle("LINK")
-            .setURL(
-              `https://discord.com/oauth2/authorize?client_id=${
-                client.config.clientId
-              }&permissions=${
-                client.config.permissions
-              }&scope=${client.config.inviteScopes
-                .toString()
-                .replace(/,/g, "%20")}`
-            )
+            .setStyle("")
+        
         ),
       ],
     });
