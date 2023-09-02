@@ -41,7 +41,7 @@ module.exports = {
 		activities: [
 			{
 				name: "To Jimbo", //- Status Text
-				type: "STREAMING", //- PLAYING, WATCHING, LISTENING, STREAMING
+				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
 	},
