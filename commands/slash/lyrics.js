@@ -131,7 +131,7 @@ const command = new SlashCommand()
 								.setURL(url)
 								.setThumbnail(lyrics.icon)
 								.setFooter({
-									text: 'Lyrics provided by MusixMatch.',
+									text: 'Lyrics provided by MusixMatch. Thanks For Partnership',
 									iconURL: musixmatch_icon
 								})
 								.setDescription(lyricsText);
