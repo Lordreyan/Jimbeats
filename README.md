@@ -1,8 +1,8 @@
-<h1 align="center"><img src="./assets/logo.gif" width="30px"> Discord Music Bot <img src="./assets/logo.gif" width="30px"></h1>
+<h1 align="center"><img src="./assets/logo.gif" width="30px"> Jimbeats <img src="./assets/logo.gif" width="30px"></h1>
 
 ## ✨Latest Updates
 
-v1.1 Is in development! Go check it out [HERE!](https://github.com/wtfnotavailable/Discord-MusicBot)
+v1.1 Is in development!
 
 What do you gain from it? Let us explain:
  - Completely modular docker environment for easier development and deployment
@@ -34,7 +34,7 @@ What do you gain from it? Let us explain:
 
 Soon
 
-## 📝 | [Support Server](https://discord.gg/sbySMS7m3v)
+## 📝 | [Support Server](https://discord.gg/)
 
 If you have major coding issues with this bot, please join and ask for help.
 
